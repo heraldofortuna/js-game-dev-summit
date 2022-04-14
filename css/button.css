@@ -1,0 +1,16 @@
+.button {
+  color: var(--black);
+  background-color: var(--primary);
+  border: none;
+  border-radius: 68px;
+  font: var(--body-16bold);
+  text-transform: uppercase;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.button--secondary {
+  color: var(--white);
+  background-color: rgba(14, 13, 16, 0.5);
+  border: 4px solid var(--primary);
+}

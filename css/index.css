@@ -1,34 +1,42 @@
+@import url("./header.css");
+@import url("./button.css");
 
-:root { 
---primary: #f8d849; 
---white: #ffffff; 
---black: #0e0d10; 
---grey-1: #201f23; 
---grey-2: #f2f2f2; 
---grey-3: #c2c2c2; 
---grey-4: #ededed; 
---red: #d15255; 
---yellow: #ffca41; 
---blue: #5285d1; 
---orange: #d18052; 
---green: #57b85b; 
---green-ligth: #f8f9f8; 
---green-ligth: #bedb8f; 
---title-110black: 900 6.875rem/normal Inter; 
---title-64black: 900 4rem/normal Inter; 
---title-50black: 900 3.125rem/normal Inter; 
---title-48regular: 400 3rem/normal Inter; 
---title-32black: 900 2rem/normal Inter; 
---subtitle-20bold: 700 1.25rem/normal Inter; 
---subtitle-20regular: 400 1.25rem/normal Inter; 
---body-16ligth: 300 1rem/1.5rem Inter; 
---body-16regular: 400 1rem/1.5rem Inter; 
---body-16bold: 700 1rem/1.5rem Inter; 
---body-14regular: 400 0.875rem/1.125rem Inter; 
---body-14regular_u: 500 0.875rem/1.25rem Inter; 
---caption-12bold: 700 0.75rem/1rem Inter; 
---caption-12ligth: 300 0.75rem/1.375rem Inter; 
---caption-12regular_u: 400 0.75rem/1.25rem Inter; 
+:root {
+  --primary: #f8d849;
+  --white: #ffffff;
+  --black: #0e0d10;
+  --grey-1: #201f23;
+  --grey-2: #f2f2f2;
+  --grey-3: #c2c2c2;
+  --grey-4: #ededed;
+  --red: #d15255;
+  --yellow: #ffca41;
+  --blue: #5285d1;
+  --orange: #d18052;
+  --green: #57b85b;
+  --green-ligth: #f8f9f8;
+  --green-ligth: #bedb8f;
+  --title-110black: 900 6.875rem / normal Inter;
+  --title-64black: 900 4rem / normal Inter;
+  --title-50black: 900 3.125rem / normal Inter;
+  --title-48regular: 400 3rem / normal Inter;
+  --title-32black: 900 2rem / normal Inter;
+  --subtitle-20bold: 700 1.25rem / normal Inter;
+  --subtitle-20regular: 400 1.25rem / normal Inter;
+  --body-16ligth: 300 1rem/1.5rem Inter;
+  --body-16regular: 400 1rem/1.5rem Inter;
+  --body-16bold: 700 1rem/1.5rem Inter;
+  --body-14regular: 400 0.875rem/1.125rem Inter;
+  --body-14regular_u: 500 0.875rem/1.25rem Inter;
+  --caption-12bold: 700 0.75rem/1rem Inter;
+  --caption-12ligth: 300 0.75rem/1.375rem Inter;
+  --caption-12regular_u: 400 0.75rem/1.25rem Inter;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -37,5 +45,6 @@ body {
   background-color: var(--grey-1);
 }
 
-
-
+.container {
+  padding-bottom: 64px;
+}
