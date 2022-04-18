@@ -1,0 +1,72 @@
+.schedule {
+  background-color: var(--black);
+}
+
+.schedule__description {
+  color: var(--grey-3);
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.activity {
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--grey-3);
+}
+
+.activity:last-child {
+  border-bottom: none;
+}
+
+.activity__main {
+  outline: 1px solid bisque;
+  display: flex;
+  gap: 24px;
+}
+
+.activity__main__hour {
+  font: var(--body-16bold);
+}
+
+.activity__main__info {
+  outline: 1px solid greenyellow;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.activity__main__info h4 {
+  font: var(--body-16bold);
+}
+
+.activity__main__info p {
+  color: var(--grey-3);
+  font: var(--body-14regular);
+}
+
+.activity__main__info button {
+  width: 100%;
+  padding: 8px 0;
+}
+
+.activity__secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.activity__secondary__title {
+  font: var(--body-16bold);
+}
+
+.activity__secondary__content {
+  color: var(--grey-3);
+}

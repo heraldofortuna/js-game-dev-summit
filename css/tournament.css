@@ -1,0 +1,13 @@
+.tournament {
+  height: 490px;
+  background-image: url("../images/quake.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.tournament .container {
+  outline: 1px solid green;
+  padding: 16px;
+}

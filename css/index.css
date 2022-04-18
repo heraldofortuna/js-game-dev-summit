@@ -1,6 +1,8 @@
 @import url("./header.css");
 @import url("./button.css");
 @import url("./description.css");
+@import url("./schedule.css");
+@import url("./tournament.css");
 @import url("./footer.css");
 
 :root {
