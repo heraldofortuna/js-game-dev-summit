@@ -1,14 +1,6 @@
 .header {
   outline: 1px solid red;
-  width: 95%;
-  margin: 0 auto;
   background-image: url("../images/background.png");
-}
-
-.header_container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
 }
 
 .logo {
@@ -28,6 +20,7 @@
 
 .title {
   outline: 1px solid purple;
+  color: var(--primary);
   font: var(--title-32black);
   text-align: center;
 }
@@ -41,6 +34,9 @@
 
 .information__list {
   padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .information__element {

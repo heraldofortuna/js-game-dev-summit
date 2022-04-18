@@ -1,0 +1,43 @@
+.description {
+  outline: 1px solid blue;
+}
+
+.summary {
+  outline: 1px solid green;
+  text-align: center;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.topics__text {
+  font: var(--subtitle-20regular);
+  text-align: center;
+}
+
+.topics__text span {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.topics__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.topic {
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.topic__title {
+  font: var(--caption-12ligth);
+}
