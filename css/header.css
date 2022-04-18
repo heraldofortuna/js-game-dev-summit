@@ -18,13 +18,6 @@
   color: var(--white);
 }
 
-.title {
-  outline: 1px solid purple;
-  color: var(--primary);
-  font: var(--title-32black);
-  text-align: center;
-}
-
 .information {
   background-color: rgba(179, 45, 45, 0.25);
   display: flex;

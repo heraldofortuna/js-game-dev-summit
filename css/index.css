@@ -1,6 +1,7 @@
 @import url("./header.css");
 @import url("./button.css");
 @import url("./description.css");
+@import url("./footer.css");
 
 :root {
   --primary: #f8d849;
@@ -53,4 +54,16 @@ body {
   flex-direction: column;
   gap: 40px;
   padding: 16px 0 64px 0;
+}
+
+.title {
+  outline: 1px solid purple;
+  color: var(--primary);
+  font: var(--title-32black);
+  text-align: center;
+}
+
+.subtitle {
+  font: var(--subtitle-20regular);
+  text-align: center;
 }
